@@ -1,0 +1,11 @@
+.operationList{
+    flex: 4;
+    padding: 20px;
+}
+
+.iconPlus{
+    color: rgb(0, 160, 19);
+}
+.iconMinus{
+    color: brown;
+}

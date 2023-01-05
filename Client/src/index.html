@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управленченский учет</title>
+    <!---->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+</head>
+<body onload="getPageContent('view')">
+        <div class="top">
+            <div class="logo">
+                <h2>AsiaTrend</h2>
+            </div>
+            <div class="User-name">
+
+            </div>
+        </div>
+    <div class="container">
+        <aside>
+            
+            <!--SIDEBAR-->
+            <div class="sidebar">
+                <a href="#" onclick="getPageContent('view')">
+                    <span class="material-icons-sharp">  multiline_chart</span>
+                    <h3>Обзор</h3>
+                </a>
+                <a href="#" class="active" onclick="getPageContent('Operation')">
+                    <span class="material-icons-sharp"> receipt_long</span>
+                    <h3>Операции</h3>
+                </a>
+                <a href="#" onclick="getPageContent('Otchet')">
+                    <span class="material-icons-sharp">description</span>
+                    <h3>Отчеты</h3>
+                </a>
+                <a href="#" onclick="getPageContent('jornay')">
+                    <span class="material-icons-sharp">menu_book</span>
+                    <h3>Справочник</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">exit_to_app</span>
+                    <h3>Выйти</h3>
+                </a>
+            </div>
+        </aside>
+        <!--END OF SIDEBAR-->
+        <main class="main-section">
+            
+            <div id="content">
+
+            </div>
+        </main>
+    </div>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
